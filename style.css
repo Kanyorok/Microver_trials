@@ -1,0 +1,33 @@
+body {
+  color: brown;
+  background-color: white;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+form {
+  margin: 15 40 0 15;
+  padding: 0;
+}
+
+.card {
+  border: 1px;
+  margin: -100px 0 0 -150px;
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  box-shadow: 0 2px 5 px 0 rgba(0, 0.1, 0.1, 0.2);
+  padding: 10 10 10 10;
+}
+
+fieldset {
+  border: 1px solid light-gray;
+  border-radius: 15px;
+  background-color: #f0f8ff;
+  align-content: center;
+}

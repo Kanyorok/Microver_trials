@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <script  src="js/index.js"></script>
+    <div class="container">
+      <div class="card">
+        
+          <h1 id="title">Survey Form</h1>
+      
+          <center><p id="description"><i>Please take a moment to fill our survey. Thank you</i></p></center>
+      
+          <fieldset>
+      <div class="form-group row">
+          <form id="survey-form">
+          <div class="form-group">
+            <label for="name" id="name-label">Name:</label><br>
+            <input class="form-control" id="name" type="text" placeholder="Enter name here" required></input>
+            </div>
+           
+      
+            <label for="email" id="email-label">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="email@gmail.com" required >
+            <br><br>
+      
+            <label for="name"id="number-label">Age:</label><br>
+            <input id="number" type="number"  placeholder="Age" min="18" max="50"></input>
+            <br><br>
+      
+          <label for="options"id="number-label">Select your country:</label><br>
+            <select  id="dropdown" name="dropdown">
+              <option value="1">Ghana</option>
+                <option value="2">Lesotho</option>
+            </select>
+      
+          <br><br>
+          <label for="Gender">Gender</label>
+                <p>
+                  <input type="radio" name="gender" value="male" checked> Male<br>
+                  <input type="radio" name="gender" value="female"> Female<br>
+                  <input type="radio" name="gender" value="other"> Other
+                </p>
+      
+      <p>Choose your favourite colors</p>
+            <input type="checkbox" name="green" id="g" value="green">Green</input><br>
+            <input type="checkbox" name="blue" id="b" value="blue">Blue</input><br>
+              <input type="checkbox" name="yellow" id="y" value="yellow">Yellow</input><br>
+              <input type="checkbox" name="black" id="b" value="black">Black</input>
+      
+      
+          <label for="message"></label>
+          <p>Express who you are in not more tha 100 words.</p>
+      
+          <textarea id="message" name="user-message" rows="4" cols="50" placeholder="Enter text here...">
+          </textarea>
+      
+          <br><br>
+            <button type="submit" id="submit" value="Submit">Submit</button>
+      
+            
+      </fieldset>
+      
+          </form>
+      </form>
+      </div>
+      </div>
+  </body>
+</html>
